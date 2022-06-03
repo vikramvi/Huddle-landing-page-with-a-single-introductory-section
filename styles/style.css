@@ -75,6 +75,46 @@ img {
   grid-area: 1fr;
   gap: 2rem;
   justify-items: center;
+  grid-template-areas:
+    "info-card__header"
+    "info-card__description"
+    "info-card__button-cta";
+}
+
+.info-card__header {
+  font-family: var(--ff-heading);
+  font-size: 2.7rem;
+  font-weight: var(--fw-600);
+  text-align: center;
+}
+
+.info-card__description {
+  /* as per design requirement set width */
+  width: 82%;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: var(--ff-body);
+}
+
+.info-card__button-cta {
+  width: 65%;
+  padding: 1rem 0;
+  border-radius: 20rem;
+  border: none;
+}
+/* --------  grid area names -------- */
+
+.info-card__header {
+  grid-area: info-card__header;
+}
+
+.info-card__description {
+  grid-area: info-card__description;
+}
+
+.info-card__button-cta {
+  grid-area: info-card__button-cta;
 }
 
 /* .attribution {
