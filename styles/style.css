@@ -116,11 +116,24 @@ body {
 
 .info-card__button-cta {
   font-family: var(--ff-body);
+  font-size: 1.35rem;
   width: 65%;
   padding: 1rem 0;
   border-radius: 20rem;
   border: none;
   color: var(--clr-soft-magenta);
+}
+
+.social-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.2rem;
+  grid-template-areas: "social-card__fb-icon social-card-f__twitter-icon social-card__instagram-icon";
+}
+
+.fa-brands {
+  color: var(--clr-white);
+  font-size: 1.8rem;
 }
 
 /* --------  grid area names -------- */
@@ -151,6 +164,18 @@ body {
 
 .social-card {
   grid-area: social-card;
+}
+
+.social-card__fb-icon {
+  grid-area: social-card__fb-icon;
+}
+
+.social-card-f__twitter-icon {
+  grid-area: social-card-f__twitter-icon;
+}
+
+.social-card__instagram-icon {
+  grid-area: social-card__instagram-icon;
 }
 
 /* .attribution {
