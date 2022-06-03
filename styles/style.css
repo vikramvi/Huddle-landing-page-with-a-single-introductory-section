@@ -65,6 +65,9 @@ img {
 
 body {
   background-color: var(--clr-violet);
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .grid-container {
