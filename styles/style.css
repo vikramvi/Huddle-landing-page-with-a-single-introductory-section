@@ -62,6 +62,21 @@ img {
 /* --------------------------- specific styling --------------------------- */
 /* ----------- ----------- ----------- ----------- ----------- ----------- */
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+  justify-items: center;
+  padding: 3rem;
+}
+
+.info-card {
+  display: grid;
+  grid-area: 1fr;
+  gap: 2rem;
+  justify-items: center;
+}
+
 /* .attribution {
         font-size: 11px;
         text-align: center;
