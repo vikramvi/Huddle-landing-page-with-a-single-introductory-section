@@ -14,6 +14,7 @@
 
   --clr-violet: hsl(257, 40%, 49%);
   --clr-soft-magenta: hsl(300, 69%, 71%);
+  --clr-white: white;
 
   /* fonts related */
 
@@ -62,12 +63,26 @@ img {
 /* --------------------------- specific styling --------------------------- */
 /* ----------- ----------- ----------- ----------- ----------- ----------- */
 
+body {
+  background-color: var(--clr-violet);
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 4rem;
   justify-items: center;
   padding: 3rem;
+  grid-template-areas:
+    "header-image-container"
+    "side-image-card"
+    "info-card"
+    "social-card";
+}
+
+.header-image-container {
+  width: 45%;
+  justify-self: start;
 }
 
 .info-card {
@@ -86,6 +101,7 @@ img {
   font-size: 2.7rem;
   font-weight: var(--fw-600);
   text-align: center;
+  color: var(--clr-white);
 }
 
 .info-card__description {
@@ -95,15 +111,31 @@ img {
   text-align: center;
   font-size: 1.5rem;
   font-family: var(--ff-body);
+  color: var(--clr-white);
 }
 
 .info-card__button-cta {
+  font-family: var(--ff-body);
   width: 65%;
   padding: 1rem 0;
   border-radius: 20rem;
   border: none;
+  color: var(--clr-soft-magenta);
 }
+
 /* --------  grid area names -------- */
+
+.header-image-container {
+  grid-area: header-image-container;
+}
+
+.side-image-card {
+  grid-area: side-image-card;
+}
+
+.info-card {
+  grid-area: info-card;
+}
 
 .info-card__header {
   grid-area: info-card__header;
@@ -115,6 +147,10 @@ img {
 
 .info-card__button-cta {
   grid-area: info-card__button-cta;
+}
+
+.social-card {
+  grid-area: social-card;
 }
 
 /* .attribution {

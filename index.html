@@ -16,9 +16,10 @@
 
 <body>
   <main class="grid-container">
-    <header class="grid-container__header-image header-image">
+    <header class="grid-container__header-image header-image-container">
       <!-- TEMP FIX : background black is added as logo was not visible -->
-      <img src="./images/logo.svg" alt="company name logo" style="background-color: black;">
+      <!-- inline styling =>  style="background-color: black;" -->
+      <img class="header-image-container__img" src="./images/logo.svg" alt="company name logo">
     </header>
     <aside class="grid-container__side-image-card side-image-card">
       <img src="./images/illustration-mockups.svg" alt="illustration mockups">
