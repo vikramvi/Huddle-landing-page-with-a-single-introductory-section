@@ -152,11 +152,25 @@ body {
 
   .info-card {
     justify-items: start;
+    gap: 1rem;
+    grid-template-rows: 15rem 10rem 5rem;
   }
 
   .info-card__header {
-    font-size: 2.7rem;
-    align-self: center;
+    width: 65%;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    align-self: end;
+    text-align: start;
+  }
+
+  .info-card__description {
+    text-align: start;
+    width: 65%;
+  }
+
+  .info-card__button-cta {
+    width: 25%;
   }
 }
 
