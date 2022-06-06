@@ -46,3 +46,30 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
+### What I learned
+
+- "width, "max-width" usage wrt CSS Grid
+- Trial error from FF dev tool before doing actual code change
+- fontawesome icon usage and related properties
+- Grid item horizontal, vertical placing
+
+### Continued development
+
+- More practice, reading, study is needed wrt BEM, SEO, Accessibility, CSS, HTML
+
+### Useful resources
+
+- Frontend Mentor slack community + website
+- YT videos
+- Google ofcourse
+- Stackoverflow
+
+## Author
+
+- Frontend Mentor - [@vikramvi](https://www.frontendmentor.io/profile/vikramvi)
+
+## Acknowledgments
+
+- FM community
+- YT content creators
+- Google + SO community
