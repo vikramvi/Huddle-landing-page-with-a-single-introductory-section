@@ -136,7 +136,6 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 2.2rem;
   grid-template-areas: "social-card__fb-icon social-card-f__twitter-icon social-card__instagram-icon";
-  justify-self: end;
 }
 
 .fa-stack {
@@ -152,19 +151,19 @@ body {
 
 /* -------- Desktop 2nd approach -------- */
 
-body {
-  /* center the grid container */
-  display: flex;
-  justify-items: center;
-  align-items: center;
-
-  /* background */
-  background-image: url("../images/bg-desktop.svg");
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
 @media screen and (min-width: 40em) {
+  body {
+    /* center the grid container */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    /* background */
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
   .grid-container {
     grid-template-columns: 71rem 45rem;
     grid-template-areas:
@@ -204,6 +203,10 @@ body {
 
   .info-card__button-cta {
     width: 35%;
+  }
+
+  .social-card {
+    justify-self: end;
   }
 }
 
