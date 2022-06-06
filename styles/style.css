@@ -51,7 +51,7 @@ html {
 body {
   /* 16px */
   font-size: 1.6em;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 img {
@@ -162,6 +162,11 @@ body {
       "side-image-card info-card"
       ". social-card";
     gap: 2rem;
+  }
+
+  .header-image-container {
+    width: 25%;
+    margin-bottom: 4rem;
   }
 
   .info-card {
