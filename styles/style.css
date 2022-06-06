@@ -159,6 +159,11 @@ body {
   display: flex;
   justify-items: center;
   align-items: center;
+
+  /* background */
+  background-image: url("../images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 @media screen and (min-width: 40em) {
@@ -168,7 +173,7 @@ body {
       "header-image-container ."
       "side-image-card info-card"
       ". social-card";
-    gap: 2rem;
+    gap: 6rem;
   }
 
   .header-image-container {
