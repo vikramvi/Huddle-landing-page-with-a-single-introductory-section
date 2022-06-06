@@ -21,7 +21,7 @@
   --ff-heading: "Poppins", sans-serif;
   --ff-body: "Open Sans", sans-serif;
 
-  --fw-400: 500;
+  --fw-400: 400;
   --fw-600: 600;
 }
 
@@ -138,11 +138,18 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 2.2rem;
   grid-template-areas: "social-card__fb-icon social-card-f__twitter-icon social-card__instagram-icon";
+  justify-self: end;
 }
 
-.fa-brands {
-  color: var(--clr-white);
-  font-size: 1.8rem;
+.fa-stack {
+  color: var(--clr-violet);
+}
+
+.fa-circle {
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+  border-width: thin;
 }
 
 /* -------- Desktop 2nd approach -------- */
