@@ -16,7 +16,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ## Overview
 
-This is 8th project from "Frontend Mentor" to sharpen HTML & CSS skills along with responsive web design and it's build with "BEM" and "Grid layout".
+This is 9th project from "Frontend Mentor" to sharpen HTML & CSS skills along with responsive web design and it's build with "BEM" and "Grid layout".
 
 ### The challenge
 
