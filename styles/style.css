@@ -133,21 +133,21 @@ body {
 
 .social-card {
   display: grid;
-  grid-template-columns: repeat(3, 35px);
+  grid-template-columns: repeat(3, 3.5rem);
   grid-template-areas: "social-card__fb-icon social-card-f__twitter-icon social-card__instagram-icon";
 }
 .social-card__fb-icon,
 .social-card-f__twitter-icon,
 .social-card__instagram-icon {
-  width: 25px;
-  height: 25px;
+  width: 2.5rem;
+  height: 2.5rem;
 
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: center;
 
-  border: 1px solid white;
+  border: 0.1rem solid white;
   border-radius: 50%;
 }
 
