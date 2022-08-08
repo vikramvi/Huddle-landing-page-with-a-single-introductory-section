@@ -133,20 +133,35 @@ body {
 
 .social-card {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.2rem;
+  grid-template-columns: repeat(3, 35px);
   grid-template-areas: "social-card__fb-icon social-card-f__twitter-icon social-card__instagram-icon";
 }
+.social-card__fb-icon,
+.social-card-f__twitter-icon,
+.social-card__instagram-icon {
+  width: 25px;
+  height: 25px;
 
-.fa-stack {
-  color: var(--clr-violet);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
-.fa-circle {
-  border-style: solid;
-  border-color: white;
-  border-radius: 50%;
-  border-width: thin;
+.social-card__fb-icon > img {
+  width: 35%;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+}
+
+.social-card-f__twitter-icon > img,
+.social-card__instagram-icon > img {
+  width: 50%;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
 }
 
 /* -------- Desktop 2nd approach -------- */
